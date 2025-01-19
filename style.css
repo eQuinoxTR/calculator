@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: rgb(37, 42, 53);
+    margin-top: 50px;
+    gap: 40px;
+}
+.row {
+    display: flex;
+    flex-grow: 1;
+    width: 450px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.btn-cont {
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    flex-grow: 2.5;
+    margin-bottom: 30px;
+    width: 10;
+}
+.button {
+    display: inline-flex;
+    height: 85%;
+    border-radius: 25px;
+    background-color: rgb(59, 66, 82);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: white;
+    flex-grow: 1;
+}
+/* animation */
+.button.ac {background-color: rgba(236, 109, 109, 0.9);}
+.button.ac:active {background-color: rgba(236, 109, 109, 0.6);}
+.button.or {background-color: rgb(209, 111, 50);}
+.button.or:active {background-color: rgba(209, 111, 50, 0.7);}
+.button:active {
+    background-color: rgba(59, 66, 82, 0.611);
+    transition: 100ms;
+}
+
+#zero {
+    display: flex;
+    flex-grow: 2.3;
+}
+
+
+.display {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(68, 89, 75);
+    width: 85%;
+    margin-top: 40px;
+    display: flex;
+    flex: 1;
+    border: 5px solid rgb(239, 239, 239);
+    font-family: sans-serif;
+    align-items: end;
+    justify-content: start;
+    font-size: 90px;
+    padding: 10px;
+    border-radius: 7px;
+    color: rgba(217, 237, 215, 0.762);
+}
+.storageDisplay{
+    font-style: italic;
+    font-size: 25px;
+    display: flex;
+    background-color: rgba(54, 73, 61, 0.965);
+    border-radius: 4px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+/* #decreaseFontSize {
+    font-size: 40px;
+} */
